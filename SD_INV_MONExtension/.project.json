@@ -1,0 +1,60 @@
+{
+  "projectType": [
+    "sap.watt.uitools.ide.fiori",
+    "com.watt.common.builder.sapui5clientbuild"
+  ],
+  "build": {
+    "targetFolder": "dist",
+    "sourceFolder": "webapp",
+    "buildRequired": true
+  },
+  "generation": [
+    {
+      "templateId": "fioriexttemplate.extensionProject",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Tue, 08 Mar 2016 06:33:44 GMT"
+    }
+  ],
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "mockpreview": {
+    "mockUri": "/sap/opu/odata/sap/SRA021_SRV/",
+    "metadataFilePath": "",
+    "loadJSONFiles": false,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "extensibility": {
+    "controllers": {
+      "Main": "SD_INV_MON%2fMain.controller.js",
+      "S2": "SD_INV_MON%2fview%2fS2.controller.js",
+      "S3": "SD_INV_MON%2fview%2fS3.controller.js"
+    },
+    "views": {
+      "Main": "SD_INV_MON%2fMain.view.xml",
+      "S2": "SD_INV_MON%2fview%2fS2.view.xml",
+      "S3": "SD_INV_MON%2fview%2fS3.view.xml"
+    },
+    "fragments": {
+      "ContactTemplate": "SD_INV_MON%2fview%2fContactTemplate.fragment.xml",
+      "ListItemTemplate": "SD_INV_MON%2fview%2fListItemTemplate.fragment.xml"
+    },
+    "type": "abaprep",
+    "component": "SD_INV_MON%2fComponent.js",
+    "configuration": "SD_INV_MON%2fConfiguration.js",
+    "system": {
+      "name": "SHE",
+      "proxyUrlPrefix": "/destinations/SHE",
+      "sapClient": ""
+    },
+    "BSPName": "SD_INV_MON",
+    "namespace": "cus.sd.customerinvoice.monitor",
+    "resourceBundle": "i18n/i18n.properties",
+    "parentResourceRootUrl": "/destinations/SHE/sap/bc/ui5_ui5/sap/SD_INV_MON"
+  }
+}
